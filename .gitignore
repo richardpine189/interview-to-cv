@@ -1,0 +1,20 @@
+# Personal CV data must never be committed to this repo.
+my-cv/
+**/my-cv/
+*.private.md
+
+# Generated output
+*.pdf
+*.docx
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.skill
+dist/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
