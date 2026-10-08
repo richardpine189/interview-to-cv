@@ -140,6 +140,20 @@ my-cv/
 - Claude.ai: the skill hands back the updated `master.md` (or the zipped folder) at the end of each session.
 - The skill warns that this folder must never be pushed to a public repository.
 
-## 17. Out of scope for v1 (roadmap)
+## 17. Skill file layout
+
+All skill resources live inside the skill folder, because that folder is the only thing installed by `npx skills add` or packaged into the `.skill` file. Paths elsewhere in this document are relative to it.
+
+```
+skills/interview-to-cv/
+├── SKILL.md
+├── master/schema.md
+├── templates/<family>.md
+├── markets/<code>.md
+├── locales/<lang>/
+└── references/
+```
+
+## 18. Out of scope for v1 (roadmap)
 
 LinkedIn profile per language · interview preparation (STAR) · new markets (DE, BR, PT…) · interface translations (es, fr, de, pt).
