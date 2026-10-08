@@ -79,6 +79,7 @@ my-cv/
 | Get a CV for another country | Interview (only the new market's questions) → Equivalences → Generate |
 | Know how a title or degree translates | Equivalences only, for the requested market; offer to save the result |
 | Write a cover letter (any type) | `workflows/cover-letter.md` |
+| Fill their own template / an application form | `workflows/custom-templates.md` |
 | Apply to a job / "here is a posting" / "how well do I match?" | `workflows/job-tailoring.md` (needs a master profile; run Intake + Interview first if missing) |
 
 ## 1. Intake
