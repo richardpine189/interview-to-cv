@@ -115,9 +115,13 @@ The interview asks whether the user holds a formal assessment for each target ma
 - "I got the AWS certification", "I changed jobs in August" → the skill asks only the 2–3 missing facts, resolves new equivalences, updates the master profile and lists the outputs that became stale.
 - If the master profile has not changed in several months, the skill asks whether there is anything new.
 
-## 14. Export (sub-skill)
+## 14. Export
 
-The user chooses: Markdown, Word (.docx), PDF, ATS-safe, XeLaTeX (`.tex`, with Overleaf instructions if no local TeX), Europass (format verified against the current Europass platform before implementation). Custom Word/PDF templates keep their own design.
+The user chooses: Markdown, Word (.docx), PDF, ATS-safe, XeLaTeX (`.tex`, with Overleaf instructions if no local TeX), Europass. Custom Word/PDF templates keep their own design.
+
+Export lives inside the skill as `workflows/export.md` (not a separate skill), so a single install or `.skill` upload includes it.
+
+Europass (verified 2026-10-07): the Europass platform only imports files Europass generated (PDF with embedded Europass XML, or Europass XML). The skill produces a content sheet in the Europass editor's order for the user to paste, instead of an importable file.
 
 ## 15. Freshness
 
