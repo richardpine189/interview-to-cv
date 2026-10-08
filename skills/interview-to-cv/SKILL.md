@@ -28,7 +28,18 @@ All paths below are relative to this skill's folder unless they start with `my-c
 
 Read only the files the current step needs. Market and template files are long; load one market at a time.
 
-Available markets: `us-en` (United States), `ca-en` (Canada, English), `ca-fr` (Québec, French).
+Available markets:
+
+| Code | Market | Template |
+|---|---|---|
+| `us-en` | United States | `north-american-resume` |
+| `ca-en` | Canada (English) | `north-american-resume` |
+| `ca-fr` | Québec (French) | `north-american-resume` |
+| `uk-en` | United Kingdom | `commonwealth-cv` |
+| `au-en` | Australia | `commonwealth-cv` |
+| `fr-fr` | France | `french-european-cv` |
+| `be-fr` | Belgium (French) | `french-european-cv` |
+| `latam-es` | Latin America (Spanish) | `latam-cv` |
 
 ## Languages
 
