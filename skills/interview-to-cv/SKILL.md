@@ -25,6 +25,7 @@ All paths below are relative to this skill's folder unless they start with `my-c
 | `locales/<lang>/questions.md` | Interviewing. |
 | `locales/<lang>/messages.md` | Showing a fixed message (warnings, checklists, disclaimers). |
 | `locales/<lang>/generic-phrases.md` | Checking a summary or cover letter. |
+| `workflows/<feature>.md` | Running that feature (see Modes and Generate). |
 
 Read only the files the current step needs. Market and template files are long; load one market at a time.
 
@@ -106,7 +107,8 @@ For each target market:
 2. **Filter.** Apply the market file: drop everything in **Omit** and anything not in **Include**; apply every **Transform** row.
 3. **Layout.** Fill the family template's skeleton with the filtered profile and the market's `section_names`.
 4. **Constraints.** Enforce length, years shown and bullets per role, cutting in the order the template gives. Never cut content the user flagged as essential without asking.
-5. **Write** `my-cv/markets/<code>/cv.md`, record it in `outputs`, and show `messages.md#generate.done`.
+5. **ATS check.** Run `workflows/ats-check.md` and fix what can be fixed without new facts.
+6. **Write** `my-cv/markets/<code>/cv.md`, record it in `outputs`, and show `messages.md#generate.done` with the ATS result.
 
 Generated text never adds facts that are not in the master profile.
 
