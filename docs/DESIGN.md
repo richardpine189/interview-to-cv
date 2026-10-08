@@ -132,6 +132,7 @@ my-cv/
 ├── master.md
 ├── markets/<code>/cv.md
 ├── templates/custom/
+├── letters/<yyyy-mm>-<company>.md
 └── applications/<yyyy-mm>-<company>-<role>/
     ├── job.md
     ├── cv.md
