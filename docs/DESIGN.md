@@ -55,6 +55,8 @@ master profile  ×  market filter  ×  job selection (optional)  ×  layout
 
 Québec belongs to the North American family (North American conventions, French language).
 
+`latam-es` is a single market for all of Latin America and follows the most conservative convention: no photo and no personal data beyond contact details (no date of birth, national ID, marital status or nationality). The region's hiring practice has moved away from requesting them, so one conservative rule set serves every country.
+
 Each `markets/<code>.md` contains:
 - `family`, `language`, `last_verified`
 - **include/omit** rules, **transform** rules (dates, spelling, section names, language levels), **constraints** (length, bullets per role, years shown, references)
