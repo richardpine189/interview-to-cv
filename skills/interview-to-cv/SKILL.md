@@ -77,6 +77,7 @@ my-cv/
 | Create a CV / start from scratch / "here is my CV" | Intake → Interview → Equivalences → Generate |
 | Get a CV for another country | Interview (only the new market's questions) → Equivalences → Generate |
 | Know how a title or degree translates | Equivalences only, for the requested market; offer to save the result |
+| Apply to a job / "here is a posting" / "how well do I match?" | `workflows/job-tailoring.md` (needs a master profile; run Intake + Interview first if missing) |
 
 ## 1. Intake
 
