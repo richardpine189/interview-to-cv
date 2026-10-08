@@ -1,35 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="title desc">
   <title id="title">Interview to CV</title>
-  <desc id="desc">A speech bubble that becomes a CV page, with a globe for the target countries.</desc>
+  <desc id="desc">A CV page next to a chat: a question bubble and a typed answer, with a three-step progress bar.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#4F46E5"/>
       <stop offset="1" stop-color="#7C3AED"/>
     </linearGradient>
   </defs>
+  <rect x="4" y="4" width="248" height="248" rx="56" fill="url(#bg)"/>
 
-  <!-- speech bubble = the interview -->
-  <path d="M40 28h148a28 28 0 0 1 28 28v116a28 28 0 0 1-28 28H96l-42 34v-34h-14a28 28 0 0 1-28-28V56a28 28 0 0 1 28-28z" fill="url(#bg)"/>
+  <!-- CV page -->
+  <rect x="40" y="30" width="132" height="176" rx="12" fill="#FFFFFF"/>
+  <circle cx="68" cy="60" r="14" fill="#C7D2FE"/>
+  <circle cx="68" cy="56" r="5.5" fill="#4F46E5"/>
+  <path d="M58 70a10 8 0 0 1 20 0" fill="#4F46E5"/>
+  <text x="90" y="72" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="34" fill="#1E1B4B">CV</text>
+  <rect x="56" y="94" width="100" height="7" rx="3.5" fill="#CBD5E1"/>
+  <rect x="56" y="108" width="84" height="7" rx="3.5" fill="#CBD5E1"/>
+  <rect x="56" y="122" width="92" height="7" rx="3.5" fill="#CBD5E1"/>
+  <rect x="56" y="136" width="64" height="7" rx="3.5" fill="#CBD5E1"/>
 
-  <!-- CV page inside the bubble -->
-  <path d="M64 56h80l24 24v92a8 8 0 0 1-8 8H64a8 8 0 0 1-8-8V64a8 8 0 0 1 8-8z" fill="#FFFFFF"/>
-  <path d="M144 56v16a8 8 0 0 0 8 8h16z" fill="#C7D2FE"/>
+  <!-- step-by-step progress -->
+  <path d="M62 180h54" stroke="#E2E8F0" stroke-width="6" stroke-linecap="round"/>
+  <path d="M62 180h27" stroke="#14B8A6" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="62" cy="180" r="11" fill="#14B8A6"/>
+  <path d="M57 180l4 4 7-8" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="89" cy="180" r="11" fill="#14B8A6"/>
+  <path d="M84 180l4 4 7-8" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="116" cy="180" r="11" fill="#FFFFFF" stroke="#4F46E5" stroke-width="4"/>
+  <circle cx="116" cy="180" r="4" fill="#4F46E5"/>
 
-  <!-- profile line + text lines -->
-  <circle cx="82" cy="84" r="10" fill="#4F46E5"/>
-  <rect x="100" y="78" width="36" height="6" rx="3" fill="#4F46E5"/>
-  <rect x="100" y="90" width="24" height="5" rx="2.5" fill="#A5B4FC"/>
-  <rect x="70" y="112" width="84" height="6" rx="3" fill="#CBD5E1"/>
-  <rect x="70" y="126" width="72" height="6" rx="3" fill="#CBD5E1"/>
-  <rect x="70" y="140" width="80" height="6" rx="3" fill="#CBD5E1"/>
-  <rect x="70" y="154" width="56" height="6" rx="3" fill="#CBD5E1"/>
+  <!-- written interview: question -->
+  <path d="M168 56h52a14 14 0 0 1 14 14v22a14 14 0 0 1-14 14h-30l-14 12v-12h-8a14 14 0 0 1-14-14V70a14 14 0 0 1 14-14z" fill="#FFC93C" stroke="#1E1B4B" stroke-width="5" stroke-linejoin="round"/>
+  <text x="194" y="94" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="34" text-anchor="middle" fill="#1E1B4B">?</text>
 
-  <!-- globe = many countries -->
-  <circle cx="196" cy="188" r="44" fill="#14B8A6" stroke="#FFFFFF" stroke-width="8"/>
-  <g fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round">
-    <ellipse cx="196" cy="188" rx="17" ry="38"/>
-    <path d="M160 188h72"/>
-    <path d="M165 168c18 6 44 6 62 0"/>
-    <path d="M165 208c18-6 44-6 62 0"/>
-  </g>
+  <!-- written interview: typed answer -->
+  <path d="M150 134h70a14 14 0 0 1 14 14v22a14 14 0 0 1-14 14h-8v12l-14-12h-48a14 14 0 0 1-14-14v-22a14 14 0 0 1 14-14z" fill="#14B8A6" stroke="#1E1B4B" stroke-width="5" stroke-linejoin="round"/>
+  <rect x="150" y="150" width="58" height="7" rx="3.5" fill="#FFFFFF"/>
+  <rect x="150" y="163" width="40" height="7" rx="3.5" fill="#FFFFFF"/>
+  <rect x="196" y="161" width="4" height="12" rx="1" fill="#FFFFFF"/>
 </svg>
