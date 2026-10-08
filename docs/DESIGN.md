@@ -153,8 +153,11 @@ skills/interview-to-cv/
 ├── templates/<family>.md
 ├── markets/<code>.md
 ├── locales/<lang>/
-└── references/
+├── references/
+└── workflows/<feature>.md
 ```
+
+`SKILL.md` holds the core flow (intake → interview → equivalences → generation). Each optional feature (job tailoring, cover letters, ATS check, custom templates, quick update, freshness review, export) lives in its own file under `workflows/` and is read only when that feature is used.
 
 ## 18. Out of scope for v1 (roadmap)
 
