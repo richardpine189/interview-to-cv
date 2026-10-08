@@ -29,7 +29,7 @@
 ## Install
 
 ```bash
-npx skills add <your-github-user>/interview-to-cv
+npx skills add richardpine189/interview-to-cv
 ```
 
 Or download the `.skill` file from Releases and upload it in Claude.ai.
