@@ -22,6 +22,7 @@ The file has two parts: YAML front matter for structured personal data, then Mar
 ---
 schema_version: 1
 last_updated: 2026-10-07          # bumped on every change; drives the "anything new?" prompt
+last_checked: 2026-10-07          # optional: user confirmed "nothing new" on this date
 interface_language: en            # language of questions and explanations (locales/<lang>/)
 target_markets: [us-en, ca-en, ca-fr]
 

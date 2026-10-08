@@ -180,6 +180,6 @@ When the answer is no, do not ask more: add the recommendation from `messages.md
 
 ### update.what
 - field: —
-- ask when: the master profile is older than `freshness.ask_after_months` (see SKILL.md) and the user starts a session
+- ask when: `last_updated` and `last_checked` are both older than 3 months and the user starts a session
 - text: Your profile was last updated on {date}. Anything new since then — a job, a certification, a move?
 - recommended: "Nothing new".

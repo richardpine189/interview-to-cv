@@ -67,7 +67,7 @@ my-cv/
 ## Start of every session
 
 1. Load the master profile if it exists.
-2. If `last_updated` is older than **3 months**, ask `questions.md#update.what` before anything else.
+2. If both `last_updated` and `last_checked` are older than **3 months**, ask `questions.md#update.what` before anything else.
 3. If `outputs` lists files generated before `last_updated`, mention them with `messages.md#generate.stale`.
 4. Work out what the user wants and go to the matching mode.
 
@@ -78,6 +78,7 @@ my-cv/
 | Create a CV / start from scratch / "here is my CV" | Intake → Interview → Equivalences → Generate |
 | Get a CV for another country | Interview (only the new market's questions) → Equivalences → Generate |
 | Know how a title or degree translates | Equivalences only, for the requested market; offer to save the result |
+| Add or change one thing ("new job", "got a certification", "moved") | `workflows/quick-update.md` |
 | Write a cover letter (any type) | `workflows/cover-letter.md` |
 | Fill their own template / an application form | `workflows/custom-templates.md` |
 | Apply to a job / "here is a posting" / "how well do I match?" | `workflows/job-tailoring.md` (needs a master profile; run Intake + Interview first if missing) |
