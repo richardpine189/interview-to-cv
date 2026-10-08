@@ -81,6 +81,7 @@ my-cv/
 | Add or change one thing ("new job", "got a certification", "moved") | `workflows/quick-update.md` |
 | Write a cover letter (any type) | `workflows/cover-letter.md` |
 | Fill their own template / an application form | `workflows/custom-templates.md` |
+| Check whether market rules are still current | `workflows/freshness-review.md` |
 | Apply to a job / "here is a posting" / "how well do I match?" | `workflows/job-tailoring.md` (needs a master profile; run Intake + Interview first if missing) |
 
 ## 1. Intake
@@ -108,7 +109,7 @@ For every role in the last 15 years and every degree, for every target market wi
 
 For each target market:
 
-1. **Freshness.** If the market file's `last_verified` is older than 6 months, show `messages.md#freshness.market` and offer to re-check its sources before generating.
+1. **Freshness.** If the market file's `last_verified` is older than 6 months, show `messages.md#freshness.market` and offer `workflows/freshness-review.md` before generating.
 2. **Filter.** Apply the market file: drop everything in **Omit** and anything not in **Include**; apply every **Transform** row.
 3. **Layout.** Fill the family template's skeleton with the filtered profile and the market's `section_names`.
 4. **Constraints.** Enforce length, years shown and bullets per role, cutting in the order the template gives. Never cut content the user flagged as essential without asking.
