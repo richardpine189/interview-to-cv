@@ -13,7 +13,7 @@ How to use this file:
 
 - **No personal data beyond contact details.** No photo, date of birth, age, gender, marital status, nationality, dependants or national ID. Markets cannot re-enable them.
 - **Reverse-chronological.** Most recent role first. A combination layout (skills block before experience) is allowed for career changers; ask before using it.
-- **Achievement bullets.** Start with a strong verb, past tense for past roles, present tense for the current one; no first-person pronouns; quantify where possible.
+- **Achievement bullets.** Start with a strong verb; no first-person pronouns; quantify where possible. Verb form comes from the market file (English: past tense for past roles, present for the current one; Québec French: infinitive or action noun).
 - **Header:** name, then one contact line. City and province/state only — never a street address.
 - **Work authorization** goes in the header contact line or the summary only when the market file says so and the master profile has a value that helps (e.g. permanent resident in Canada).
 - **References** are not listed and "References available upon request" is not written.
@@ -69,7 +69,7 @@ The market file sets the page limit. When the content is over the limit, cut in 
 
 ## Cover letter skeleton
 
-Called *cover letter* in `us-en` and `ca-en`, *lettre de présentation* in `ca-fr` (Québec usage; *lettre de motivation* is the European term). One page, three to four paragraphs, same header as the resume.
+Called *cover letter* in `us-en` and `ca-en`, *lettre d'accompagnement* in `ca-fr` (OQLF term; *lettre de présentation* and *lettre de motivation* are also used). One page, three to four paragraphs, same header as the resume.
 
 `<<…>>` are **evidence slots**. An empty slot is asked during the interview or flagged in the output — never filled with generic text.
 
