@@ -82,6 +82,7 @@ my-cv/
 | Write a cover letter (any type) | `workflows/cover-letter.md` |
 | Fill their own template / an application form | `workflows/custom-templates.md` |
 | Check whether market rules are still current | `workflows/freshness-review.md` |
+| Get the CV as Word, PDF, ATS-safe, LaTeX or Europass | `workflows/export.md` |
 | Apply to a job / "here is a posting" / "how well do I match?" | `workflows/job-tailoring.md` (needs a master profile; run Intake + Interview first if missing) |
 
 ## 1. Intake
