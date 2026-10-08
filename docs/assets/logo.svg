@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="title desc">
+  <title id="title">Interview to CV</title>
+  <desc id="desc">A speech bubble that becomes a CV page, with a globe for the target countries.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+
+  <!-- speech bubble = the interview -->
+  <path d="M40 28h148a28 28 0 0 1 28 28v116a28 28 0 0 1-28 28H96l-42 34v-34h-14a28 28 0 0 1-28-28V56a28 28 0 0 1 28-28z" fill="url(#bg)"/>
+
+  <!-- CV page inside the bubble -->
+  <path d="M64 56h80l24 24v92a8 8 0 0 1-8 8H64a8 8 0 0 1-8-8V64a8 8 0 0 1 8-8z" fill="#FFFFFF"/>
+  <path d="M144 56v16a8 8 0 0 0 8 8h16z" fill="#C7D2FE"/>
+
+  <!-- profile line + text lines -->
+  <circle cx="82" cy="84" r="10" fill="#4F46E5"/>
+  <rect x="100" y="78" width="36" height="6" rx="3" fill="#4F46E5"/>
+  <rect x="100" y="90" width="24" height="5" rx="2.5" fill="#A5B4FC"/>
+  <rect x="70" y="112" width="84" height="6" rx="3" fill="#CBD5E1"/>
+  <rect x="70" y="126" width="72" height="6" rx="3" fill="#CBD5E1"/>
+  <rect x="70" y="140" width="80" height="6" rx="3" fill="#CBD5E1"/>
+  <rect x="70" y="154" width="56" height="6" rx="3" fill="#CBD5E1"/>
+
+  <!-- globe = many countries -->
+  <circle cx="196" cy="188" r="44" fill="#14B8A6" stroke="#FFFFFF" stroke-width="8"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round">
+    <ellipse cx="196" cy="188" rx="17" ry="38"/>
+    <path d="M160 188h72"/>
+    <path d="M165 168c18 6 44 6 62 0"/>
+    <path d="M165 208c18-6 44-6 62 0"/>
+  </g>
+</svg>
